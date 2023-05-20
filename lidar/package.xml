@@ -3,9 +3,9 @@
 <package format="3">
   <name>lidar</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="dandog@todo.todo">dandog</maintainer>
-  <license>TODO: License declaration</license>
+  <description>ydlidar x4 pro package</description>
+  <maintainer email="danjan36@gmail.com">Daniel Riyavong</maintainer>
+  <license>Apache 2.0</license>
   <exec_depend>rclpy</exec_depend>
   <exec_depend>sensor_msgs</exec_depend>
   <exec_depend>lidar_interfaces</exec_depend>
