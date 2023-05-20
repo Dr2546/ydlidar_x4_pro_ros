@@ -13,10 +13,10 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='dandog',
-    maintainer_email='dandog@todo.todo',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer='Daniel Riyavong',
+    maintainer_email='danjan36@gmail.com',
+    description='ydlidar x4 pro package',
+    license='Apache 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
