@@ -2,6 +2,10 @@
 
 This is YDLidar X4 Pro package for ROS2
 
+# Prerequisites
+
+This package depends on [ydlidar_ros2_driver](https://github.com/YDLIDAR/ydlidar_ros2_driver) so if you don't have it or out of date, do it first.
+
 # How to build package
 
 1.Create your workspace with a ```src``` sub-directory.
@@ -16,12 +20,14 @@ This is YDLidar X4 Pro package for ROS2
 
 5.In your root workspace , go inside  ```install/lidar/lib```. If there is no ```lidar``` directory, create it,then copy ```lidar.py``` ```lidarcli.py``` from ```install/lidar/bin``` and paste under ```lidar```.
 
+6.In your root workspace , go inside  ```install/lidar/share/lidar```. If there is no ```launch``` directory, create it,then copy ```lidar_launch.py```  from ```src/lidar/launch``` and paste under ```launch```.
+
 # How to use/run package
 1.Open up your workspace in 2 terminal.
 
 2.Run ```. install/setup.bash``` in both terminals.
 
-3.First terminal run ```ros2 run lidar lidar```.
+3.First terminal run ```ros2 launch lidar lidar_launch.py```.
 
 4.Second terminal ,when you want to get lidar informations, run ```ros2 run lidar lidarcli getpos```.
 
